@@ -3,6 +3,8 @@
 ### Module 1: Generative Art
 This is a generative art project on ESP32 that was installed as hanging displays at Barnard College. I chose to represent the theme of _transition_ using a series of appearing circles!
 
+![](./media/display.gif)
+
 Requirements
 ---
 **Software:**
@@ -31,8 +33,11 @@ Requirements
 7) Wrap the other end of the string around the popsicle stick and secure with tape
 8) Use popsicle stick and tape to hang up your display!
 
+![](./media/installation.gif)
 
 ### Design
 ---
 I thought about the theme 'transition' and how it could be emulated using modifications to the code examples in the interest of time. Using TFT_ellipse as a reference, I removed the filled ellipses and changed ``tft.drawEllipse`` to ``tft.drawCircle``. An inner for loop would draw new, larger rings continuously, mimicking rings of growing thickness. I used Arduino's ``random()`` module to randomize the radius size, spawn location, and color of each circle. The outer for loop I then set to 10 total iterations, for 10 of these expanding circles drawn on screen before clearing and beginning anew.
 <br>
+
+![](./media/IMG_7453.jpeg)
