@@ -1,7 +1,7 @@
 # Transition
 
 ### Module 1: Generative Art
-This is a generative art project on ESP32 that was installed as hanging displays at Barnard College. I chose to represent the theme of _transition_ using a series of appearing circles!
+This is a generative art project on ESP32 that was installed as hanging displays at Barnard College. I chose to represent the theme of 'transition' using a series of appearing circles!
 
 ![](./media/display.gif)
 
